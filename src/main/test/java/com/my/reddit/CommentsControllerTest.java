@@ -8,9 +8,6 @@ class CommentsControllerTest {
 
     @org.junit.jupiter.api.Test
     void createComment() {
-        CommentsDto commentsDto = new CommentsDto();
-        String response = commentsDto.toString("Test commentsDto");
-        assertEquals("Test", response);
     }
 
     @org.junit.jupiter.api.Test
